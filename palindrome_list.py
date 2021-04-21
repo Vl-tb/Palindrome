@@ -69,11 +69,3 @@ class Palindrome:
             i += 1
         self.write_to_file(write_f)
         return self.palindroms
-
-
-if __name__ == "__main__":
-    a = Palindrome()
-    # print(a.read_file("base.lst"))
-    # a.write_to_file("zalupa.txt")
-    # print(a.find_palindromes("base.lst", "palindrome_uk.txt"))
-    print(a.find_palindromes("words.txt", "palindrome_en.txt"))
